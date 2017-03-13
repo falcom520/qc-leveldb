@@ -32,3 +32,12 @@ A lua implementation of leveldb driver
             print(v)
         end
         db:close()
+
+# 操作方法
+
+        1、db:get(key)
+        2、db:set(key,val) / db:batchSet(table)
+        3、db:del(key) / db:batchDel(table)
+        4、db:iterator_new/iterator_seek/iterator_next/iterator_first/iterator_last
+        5、db:close()
+        
