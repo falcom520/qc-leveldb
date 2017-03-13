@@ -1,18 +1,3 @@
-# lua-resty-leveldb
-A lua implementation of leveldb driver
-
-主要通过ffi调用libleveldb.so库实现lua对leveldb的相关操作
-
-
-# 安装说明
-
-1、安装leveldb驱动
-2、将leveldb.lua存放到openresty的lualib/resty/下
-3、在leveldb.lua中配置libleveldb.so地址
-4、运行demo.lua
-
-# 例子
-
 local leveldb = require "resty.leveldb"
 local db = leveldb:new("/tmp/test_leveldb",{error_if_exists=false})
 
