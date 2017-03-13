@@ -6,10 +6,10 @@ A lua implementation of leveldb driver
 
 # 安装说明
 
-        1、安装leveldb驱动
-        2、将leveldb.lua存放到openresty的lualib/resty/下
-        3、在leveldb.lua中配置libleveldb.so地址
-        4、运行demo.lua
+        1、安装leveldb驱动，下载地址 https://github.com/google/leveldb
+        2、将leveldb.lua存放到openresty的lualib/resty/下
+        3、在leveldb.lua中leveldb_so指定libleveldb.so地址
+        4、运行luajit demo.lua
 
 # 例子
 
