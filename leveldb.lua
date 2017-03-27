@@ -1,4 +1,4 @@
--- leveldb lua api QiuCloud.com INC
+-- leveldb lua api QiuCloud.com (Falcon.C)
 --
 module("resty.leveldb",package.seeall)
 
