@@ -1,4 +1,4 @@
-local leveldb = require "resty.leveldb"
+local leveldb = require "leveldb"
 local db = leveldb:new("/tmp/test_leveldb",{error_if_exists=false})
 
 local keys = {"001","k1","k2"}

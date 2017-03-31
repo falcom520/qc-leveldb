@@ -256,7 +256,9 @@ function _M.new(self,filename,options)
             leveldb.leveldb_free(self._db)
         end
     end
-
+    if options == nil then
+        options = {create_if_missing=true,error_if_exists=false}
+    end
     local c_options = create_options(options)
     local c_err = ffi.new("char*[1]")
     if self._db == nil then
