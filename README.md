@@ -41,3 +41,12 @@ A lua implementation of leveldb driver
         4、db:iterator_new/iterator_seek/iterator_next/iterator_first/iterator_last
         5、db:close()
         
+
+
+# 高性能KV存储
+
+存储kv
+curl "http://127.0.0.1/?k=0001&v=Falcon.C"
+
+获取key
+curl "http://127.0.0.1/?k=0001"
