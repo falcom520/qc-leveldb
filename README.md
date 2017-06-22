@@ -1,4 +1,4 @@
-# lua-resty-leveldb
+# qc-leveldb
 A lua implementation of leveldb driver
 
 主要通过ffi调用libleveldb.so库实现lua对leveldb的相关操作
@@ -13,7 +13,7 @@ A lua implementation of leveldb driver
 
 # 例子
 
-        local leveldb = require "resty.leveldb"
+        local leveldb = require "resty.qc.leveldb"
         local db = leveldb:new("/tmp/test_leveldb")
 
         local keys = {"001","k1","k2"}
