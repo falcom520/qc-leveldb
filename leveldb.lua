@@ -1,6 +1,6 @@
 -- leveldb lua api QiuCloud.com (Falcon.C)
 --
-module("resty.leveldb",package.seeall)
+module("qc.leveldb",package.seeall)
 
 local ffi = require "ffi"
 local leveldb_so = "/usr/local/openresty/lualib/libleveldb.so"
